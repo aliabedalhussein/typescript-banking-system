@@ -1,0 +1,14 @@
+
+{
+  "name": "typescript-banking-system",
+  "version": "1.0.0",
+  "description": "A TypeScript banking system demonstrating OOP principles",
+  "scripts": {
+    "build": "tsc",
+    "banking": "npm run build && node build/banking-test.js",
+    "test": "npm run banking"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
